@@ -1,0 +1,5 @@
+1. All tests are written in Cucumber -> ./feature/*.feature
+2. I wrote only functionality to login application and verify that I am on main screen. CRUD required login to application by email, but credentials wasn't provided. I cannot find CRUD functionality for articles.
+3. Report is generated automaticaly after automation test execution
+4. Some feature are available after 2nd login that I recognize as a bug. Also pagination shows all pages, and all tags are visible - this is also a bug. Long tag is displayed beyond tags section - this is also a bug.
+5. In this task I prepared solution in 3 amigos strategy. Business creates scenarios in Cucumber, tester with comunication with developer prepare steps. This BDD strategy. Form of login to the application should be changed. User should be logout after some times. Should you have any questions please let me know.
